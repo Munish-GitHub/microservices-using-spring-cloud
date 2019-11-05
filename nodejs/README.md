@@ -5,9 +5,10 @@ In Microservices architecture, Threat service call Hero service through Zuul api
 
 Eureka server and Zuul services are created with Spring boot cloud. You can go to Java folder in repo and import the repo and projects. Start eureka server and zuul api gateway as mentioned in README.md of Java folder.
 
-Lets start with Node (npm should be installed on machine):
+Lets start with Node projects (npm should be installed on machine):
 After cloning repo, import node js projects in Visual Studio code.
-Open three terminals, one for hero service, second for threat service and third for Eureka
+Open three terminals, one for hero service, second for threat service and third for Eureka.
+
 On hero service and threat service terminals hit the below commands:
 >npm install -y
 >npm install --save express body-parser
